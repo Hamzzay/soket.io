@@ -1,8 +1,8 @@
 const port = 8443;
 const fs = require("fs");
 var options = {
-    key: fs.readFileSync("./ssl_certificates/cpas-sports.key"),
-    cert: fs.readFileSync("./ssl_certificates/cpas-sports.com.chained.crt"),
+    key: fs.readFileSync("./ssl_certificates/example.key"),
+    cert: fs.readFileSync("./ssl_certificates/example.com.chained.crt"),
 };
 var express = require("express");
 var app = express();
